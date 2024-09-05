@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skosmos Plugin</title>
+</head>
+<body>
+    <h1>Vocabulary Groups</h1>
+
+    <div>
+        <label for="languageSelect">Select a language:</label>
+        <select id="languageSelect">
+            <option value="en">English</option>
+            <option value="fi">Finnish</option>
+            <option value="sv">Swedish</option>
+            <option value="se">Northern Sami</option>
+        </select>
+    </div>
+
+    <h2>Groups:</h2>
+    <div>
+        <label for="groupsDropdown">Select a group:</label>
+        <select id="groupsDropdown" disabled>
+            <option value="">-- Please select a group --</option>
+        </select>
+    </div>
+
+    <script src="api.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
